@@ -1,0 +1,35 @@
+.footer {
+  background-color: $fourthColor;
+}
+
+.footer__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  padding: 5px;
+}
+
+.footer__text {
+  color: $whiteColor;
+}
+
+.footer__email,
+.footer__phone {
+  padding: 0 10px;
+  color: $whiteColor;
+  text-decoration: none;
+
+  &:hover {
+    color: $secondColor;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: $max-mobile-width) {
+  .footer__wrap {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,27 @@
+.header__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  padding: 10px;
+
+  background-color: $fourthColor;
+}
+
+.header__title {
+  @include font(24px, 30px, 300, italic);
+  color: $whiteColor;
+
+  text-transform: uppercase;
+}
+
+.header__link {
+  text-decoration: none;
+  color: $whiteColor;
+
+  &:hover {
+    color: $secondColor;
+    text-decoration: underline;
+  }
+}
