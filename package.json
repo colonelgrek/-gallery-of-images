@@ -1,0 +1,23 @@
+{
+    "name": "skeleton",
+    "version": "1.0.0",
+    "description": "project using gulp4",
+    "author": "Sergei Grekov",
+    "devDependencies": {
+        "browser-sync": "^2.26.14",
+        "del": "^6.0.0",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-cssbeautify": "^3.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-rigger": "^0.5.8",
+        "gulp-sass": "^4.1.0",
+        "gulp-strip-css-comments": "^2.0.0",
+        "gulp-typograf": "^4.0.3",
+        "gulp-uglify": "^3.0.2",
+        "panini": "^1.7.1",
+        "gulp-clean-css": "^4.3.0"
+    }
+}
